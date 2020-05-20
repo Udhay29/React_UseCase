@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav.header{
+  background: grey;
+}
+
+nav.header ul{
+  margin: 0;
+  padding: 30px;
+  list-style: none;
+}
+nav.header ul li{
+  display: inline-block;
+  margin: 0 20px;
+  color: #fff;
+}
+
+.wrapper{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px 0;
+  border: 2px solid rgb(98, 186, 245);
+}
+.heading p{
+  margin-top: 0;
+}
+.heading h4{
+  margin-bottom: 5px;
+}
+.heading{
+  padding: 0 10px;
+}
+
+.heading h4,.heading p{
+  text-align: left;
+}
+
+/* Inactive tab */
+.myClass a {
+  background-color: white;
+  color: grey;
+  width: 50%;
+  border: none !important;
+}
+.myClass a:hover {
+  background-color: #e9ecef;
+}
+.myClass.nav-tabs .nav-link.active{
+  background-color: grey;
+  color: #fff;
+}
+
+/* Active tab */
+.myClass a.active,
+.myClass a.active:hover,
+.myClass a.active:focus {
+  background-color: grey;
+  color: white;
+}
+
+/* Disabled tab */
+.myClass a.disabled {
+  background-color: lightgray;
+  color: darkgray;
+}
+
+.condition p{
+  color: rgb(98, 186, 245);
+  margin: 10px 0 8px;
+  text-align: left;
+  cursor: pointer;
+}
+.tab-content{
+  min-height: 400px;
+}
+.no-data h6{
+  font-size: 12px;
+}
+.no-data p{
+  color: rgb(98, 186, 245);
+  cursor: pointer;
+}
+.no-data > div{
+  width: 100%;
+}
+.no-data{
+  min-height: 400px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.card-list{
+  width: 100%;
+}
+.list{
+  position: relative;
+}
+.list p{
+  margin: 0;
+}
+ .card-list .dropdown button{
+  font-size: 16px;
+  color: rgba(128, 128, 128, 0.28);
+  padding: 4px;
+  height: 20px;
+  width: 20px;
+  line-height: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  box-shadow: none !important;
+}
+.left-span, .right-span{
+  position: absolute !important;
+  top: -4px;
+}
+.left-span{
+  left: 0;
+}
+.right-span{
+  right: 0;
+}
+.card-list > div{
+  min-height: 28px;
+}
+.card-list .dropdown button:after{
+  display: none;
+}
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle{
+  background: #fff !important;
+  color:grey !important;
+}
+.err-cond{
+  border-bottom: 1px solid orange !important;
+}
+.content-wrapper {
+  display: flex;
+}
+.content-wrapper > div{ 
+  width: 100%;
+}
+.content-wrapper > div.gate{
+  margin-left: -100%;
+}
+.gate > div {
+  margin-bottom: 45px;
+  margin-top: 36px;
+  height: 30px;
+}
+.gate span{
+  padding: 0px 10px;
+  width: 100px;
+  display: inline-block;
+  color: rgb(98, 186, 245);
+  line-height: 19px;
+  height: 25px;
+  border: 1px solid grey;
+  margin-top: 4.5px;
+  cursor: pointer;
+}
