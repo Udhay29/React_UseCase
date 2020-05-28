@@ -1,0 +1,32 @@
+{
+    "name": "UdhayTest",
+    "description": "Atlassian Connect app",
+    "key": "com.example.myapp",
+    "baseUrl": "https://245a31dc.ngrok.io",
+    "vendor": {
+        "name": "Atlassian",
+        "url": "http://www.atlassian.com"
+    },
+    "links": {
+      "self": "https://245a31dc.ngrok.io/atlassian-connect.json"
+    },
+    "authentication": {
+        "type": "none"
+    },
+    "scopes": [
+        "read", "write"
+    ],
+    "apiVersion": 1,
+    "modules": {
+        "generalPages": [
+            {
+                "url": "/index.html",
+                "key": "hello-world",
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "udhay"
+                }
+            }
+        ]
+    }
+}
